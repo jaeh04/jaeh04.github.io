@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>📌 Navigation</h2>
+            <nav>
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">🏠 Home</a></li>
+                    <li><a href="{{ '/academy/' | relative_url }}">🎓 Academy</a></li>
+                    <li><a href="{{ '/aviation/' | relative_url }}">✈️ Aviation</a></li>
+                    <li><a href="{{ '/company/' | relative_url }}">🏢 Company</a></li>
+                    <li><a href="{{ '/data-science-ai/' | relative_url }}">🤖 Data Science & AI</a></li>
+                    <li><a href="{{ '/smart-factory/' | relative_url }}">🏭 Smart Factory</a></li>
+                    <li><a href="{{ '/ai-pharma/' | relative_url }}">💊 AI Pharma</a></li>
+                    <li><a href="{{ '/ai-semiconductor/' | relative_url }}">🔬 AI Semiconductor</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            {{ content }}
+        </main>
+    </div>
+</body>
+</html>

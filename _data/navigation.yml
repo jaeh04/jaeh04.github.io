@@ -1,0 +1,40 @@
+main:
+  - title: "🏠 Home"
+    url: "/"
+  - title: "🎓 Academy (학교)"
+    subcategories:
+      - title: "학부 프로젝트"
+        subitems:
+          - title: "IoT 종합설계"
+            url: "/academy/undergraduate/iot-project/"
+      - title: "대학원 프로젝트"
+        subitems:
+          - title: "수업명 1"
+            url: "/academy/graduate/class1/"
+
+  - title: "✈️ 항공"
+    subcategories:
+      - title: "NASA 엔진 RUL 예측"
+        subitems:
+          - title: "데이터 시각화"
+            url: "/aviation/engine-rul-visualization/"
+
+  - title: "🏢 회사 프로젝트"
+    subcategories:
+      - title: "IPS/ILS 프로젝트"
+        subitems:
+          - title: "프로젝트 1"
+            url: "/company/ips-ils-project1/"
+
+  - title: "🤖 데이터 사이언스 & AI"
+    url: "/data-science-ai/"
+
+  - title: "🏭 스마트팩토리"
+    url: "/smart-factory/"
+
+  - title: "💊 AI 제약"
+    url: "/ai-pharma/"
+
+  - title: "🔬 AI 반도체"
+    url: "/ai-semiconductor/"
+
